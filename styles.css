@@ -1,0 +1,103 @@
+body, h1, p, header, main, nav, ul, li, a {
+    margin: 0;
+    padding: 0;
+    font-family: monospace;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+
+header {
+    background-color: aquamarine;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+    color: coral;
+
+
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 60px;
+    z-index: 1000;
+}
+
+header h1 {
+    font-size: 2em;
+    margin: 0;
+    margin-left: 20px;
+    
+    
+}
+nav ul {
+    list-style-type: none;
+    display: flex;
+    
+}
+nav li {
+    margin-right: 20px;
+}
+nav a {
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.2em;
+    transition: color 0.3s ease;
+}
+nav a:visited {
+    color: coral;
+}
+nav a:hover {
+    color: rgb(0, 0, 0);
+}
+
+
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 60px;
+    z-index: 1000;
+}
+
+body {
+    
+    background-color: aliceblue;
+    padding-top: 50px;
+}
+section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+body section.hero-section {
+    background-color: greenyellow;
+    padding: 20px;
+    margin: 0;
+}
+body h2.hero-section-title {
+    color: blueviolet;
+}
+
+body strong.hero-section-text-bold {
+    color: darkblue;
+}
+
+body img.hero-section-imgs {
+    max-width: 100%; /* Make the image responsive */
+    height: auto; /* Maintain aspect ratio */
+    display: block; /* Remove extra space below the image */
+    margin: 20px auto; /* Add spacing around the image */
+    border-radius: 10px; /* Add rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
