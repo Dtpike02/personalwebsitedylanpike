@@ -8,17 +8,14 @@ body, h1, p, header, main, nav, ul, li, a {
     box-sizing: border-box;
 }
 
-
 header {
-    background-color: aquamarine;
+    border-bottom: 2px solid #204529; /* Deep Green border for the header */
 
     display: flex;
     align-items: center;
     justify-content: space-between;
     text-align: center;
-    color: coral;
-
-
+    
     position: fixed;
     top: 0;
     width: 100%;
@@ -27,33 +24,36 @@ header {
 }
 
 header h1 {
+    color: #333; /* Dark gray text color for the header */
     font-size: 2em;
     margin: 0;
     margin-left: 20px;
-    
-    
 }
+
 nav ul {
     list-style-type: none;
     display: flex;
-    
 }
+
 nav li {
     margin-right: 20px;
 }
+
 nav a {
     text-decoration: none;
     font-weight: bold;
     font-size: 1.2em;
     transition: color 0.3s ease;
-}
-nav a:visited {
-    color: coral;
-}
-nav a:hover {
-    color: rgb(0, 0, 0);
+    color: #333; /* Dark gray text color for navigation links */
 }
 
+nav a:visited {
+    color: #333; /* Slightly lighter gray color for visited links */
+}
+
+nav a:hover {
+    color: #4CAF50; /* Light Green on hover for navigation links */
+}
 
 footer {
     display: flex;
@@ -68,36 +68,49 @@ footer {
 }
 
 body {
-    
-    background-color: aliceblue;
+    background-color: #76a484; /* Light Green background color */
     padding-top: 50px;
+    color: #333333; /* Dark Gray text color */
 }
+
 section {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    column-gap: 12px;
+    row-gap: 12px;
 }
 
 body section.hero-section {
-    background-color: greenyellow;
     padding: 20px;
     margin: 0;
 }
+
 body h2.hero-section-title {
-    color: blueviolet;
+    color: #333; /* Black text color for section titles */
 }
 
 body strong.hero-section-text-bold {
-    color: darkblue;
+     
+    font-size: larger;
+    display: inline-block;
+    background: linear-gradient(45deg, #1B5E20, #0D47A1); /* Adjust colors as needed */
+    background-clip: border-box;
+    -webkit-background-clip: text;
+    color: transparent;
 }
 
 body img.hero-section-imgs {
-    max-width: 100%; /* Make the image responsive */
-    height: auto; /* Maintain aspect ratio */
-    display: block; /* Remove extra space below the image */
-    margin: 20px auto; /* Add spacing around the image */
-    border-radius: 10px; /* Add rounded corners */
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 20px auto;
+    border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
+button {
+    background-color: #42A5F5; /* Sky Blue */
+    color: #fff; /* White text color for buttons */
+}
