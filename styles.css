@@ -80,6 +80,7 @@ section {
     justify-content: center;
     column-gap: 12px;
     row-gap: 12px;
+    z-index: -1;
 }
 
 body section.hero-section {
@@ -87,8 +88,10 @@ body section.hero-section {
     margin: 0;
 }
 
-body h2.hero-section-title {
+section h2.hero-section-title {
     color: #333; /* Black text color for section titles */
+    font-size: 180px;
+    z-index: 1;
 }
 
 body strong.hero-section-text-bold {
