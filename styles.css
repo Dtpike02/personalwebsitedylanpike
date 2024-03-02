@@ -45,20 +45,11 @@ body section.hero-section {
     margin: 0;
 }
 
-section h2.hero-section-title {
-    color: #333; /* Black text color for section titles */
-    font-size: 180px;
-    z-index: 1000;
-    align-items: center;
-}
-
 body strong.hero-section-text-bold {
      
     font-size: larger;
     display: inline-block;
     color: red; /* Adjust colors as needed */
-    
-    
 }
 
 body img.hero-section-imgs {
