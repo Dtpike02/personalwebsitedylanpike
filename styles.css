@@ -95,7 +95,6 @@ section h2.hero-section-title {
     z-index: 1000;
     background-image: url("./imgs/Headshot.JPG");
     background-size: 500px;
-    border: 2px solid;
     border-radius: 25px;
 }
 
