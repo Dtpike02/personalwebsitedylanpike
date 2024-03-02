@@ -23,7 +23,6 @@ footer {
 
 body {
     background-color: #fff; /* Light Green background color */
-    padding-top: 50px;
     color: #333333; /* Dark Gray text color */
 }
 
@@ -56,8 +55,7 @@ body img.hero-section-imgs {
     max-width: 100%;
     height: auto;
     display: block;
-    margin: 20px auto;
-    border-radius: 10px;
+    
 }
 body img.portfolio-section-imgs {
     max-width: 100%;
