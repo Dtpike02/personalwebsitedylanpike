@@ -99,7 +99,7 @@ body strong.hero-section-text-bold {
      
     font-size: larger;
     display: inline-block;
-    background: red; /* Adjust colors as needed */
+    color: red; /* Adjust colors as needed */
     
     
 }
