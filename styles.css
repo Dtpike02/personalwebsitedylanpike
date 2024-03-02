@@ -85,6 +85,8 @@ section {
 }
 
 body section.hero-section {
+    display: flex;
+    flex-direction: row;
     padding: 20px;
     margin: 0;
 }
@@ -93,6 +95,8 @@ section h2.hero-section-title {
     color: #333; /* Black text color for section titles */
     font-size: 180px;
     z-index: 1000;
+    justify-content: center;
+    align-items: center;
 }
 
 body strong.hero-section-text-bold {
