@@ -99,10 +99,8 @@ body strong.hero-section-text-bold {
      
     font-size: larger;
     display: inline-block;
-    background: linear-gradient(45deg, #1B5E20, #0D47A1); /* Adjust colors as needed */
-    background-clip: border-box;
-    -webkit-background-clip: text;
-    color: transparent;
+    background: red; /* Adjust colors as needed */
+    
     
 }
 
