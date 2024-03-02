@@ -9,7 +9,6 @@ body, h1, p, header, main, nav, ul, li, a {
 }
 
 header {
-    border-bottom: 2px solid #204529; /* Deep Green border for the header */
 
     display: flex;
     align-items: center;
@@ -20,7 +19,8 @@ header {
     top: 0;
     width: 100%;
     height: 60px;
-    z-index: 1000;
+    z-index: 1001;
+    background-color: #fff;
 }
 
 header h1 {
@@ -52,7 +52,7 @@ nav a:visited {
 }
 
 nav a:hover {
-    color: #4CAF50; /* Light Green on hover for navigation links */
+    color: gray; /* Light Green on hover for navigation links */
 }
 
 footer {
@@ -65,10 +65,11 @@ footer {
     width: 100%;
     height: 60px;
     z-index: 1000;
+    background-color: #fff;
 }
 
 body {
-    background-color: #76a484; /* Light Green background color */
+    background-color: #fff; /* Light Green background color */
     padding-top: 50px;
     color: #333333; /* Dark Gray text color */
 }
@@ -92,6 +93,10 @@ section h2.hero-section-title {
     color: #333; /* Black text color for section titles */
     font-size: 180px;
     z-index: 1000;
+    background-image: url("./imgs/Headshot.JPG");
+    background-size: 500px;
+    border: 2px solid;
+    border-radius: 25px;
 }
 
 body strong.hero-section-text-bold {
